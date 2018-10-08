@@ -39,7 +39,22 @@ Exemple d'entrée:
  */
 
 function searchWordFilter(items, search) {
+  return items.filter((item) => 
+    item.toLowerCase().indexOf(search.toLowerCase()) > -1 
+  );
 }
-
+/*
+const tab =   [
+  'Mad Max: Fury Road',
+  'Interstellar',
+  'Revenge of the Nerds',
+  'Revenge of the Pink Panther',
+  'Star Wars: Episode I - The Phantom Menace',
+  'Star Wars: Episode II - Attack of the Clones',
+  'Star Wars: Episode III - Revenge of the Sith'
+]
+const search = 'revenge';
+console.log(searchWordFilter(tab, search));
+*/
 // Ne pas modifier l'export
 module.exports = searchWordFilter;
