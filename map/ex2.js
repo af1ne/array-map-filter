@@ -52,6 +52,27 @@ function getFoodCategories(foods) {
   })
   return result
 }
+/*
+const array = [
+  {
+    food: 'Bacon',
+    isVegetarian: false
+  },
+  {
+    food: 'Sausage',
+    isVegetarian: false
+  },
+  {
+    food: 'Tofu',
+    isVegetarian: true
+  },
+  {
+    food: 'Chick Pea',
+    isVegetarian: true
+  }
+]
+console.log(getFoodCategories(array))
+*/
 
 // Ne pas modifier l'export
 module.exports = getFoodCategories;

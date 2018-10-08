@@ -66,5 +66,8 @@ function getCirclesProperties(radiuses) {
   return addingProps;
 }
 
+//const tab = [1, 3, 4.5, 7];
+//console.log(getCirclesProperties(tab));
+
 // Ne pas modifier l'export
 module.exports = getCirclesProperties;

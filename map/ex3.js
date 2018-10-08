@@ -76,6 +76,27 @@ function getMoviesFreshness(movies) {
   });
   return addingLabel;
 }
+/*
+const tab = [
+  {
+    name: 'Crazy Rich Asians',
+    rating: 93
+  },
+  {
+    name: 'Skyscraper',
+    rating: 46
+  },
+  {
+    name: 'Leave No Trace',
+    rating: 100
+  },
+  {
+    name: 'White Boy Rick',
+    rating: 60
+  }
+]
+console.log(getMoviesFreshness(tab));
+*/
 
 // Ne pas modifier l'export
 module.exports = getMoviesFreshness;
